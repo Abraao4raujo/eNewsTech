@@ -12,6 +12,12 @@
   justify-content: space-between;
 }
 
+.tituPara > label{
+  font-size: 14px;
+    color: green;
+    font-weight: bold;
+}
+
 .conteudo-img label {
   font-size: 0.8rem;
   color: gray;
@@ -23,18 +29,21 @@
 
 .assunto {
   display: grid;
-  gap: 42px;
-  grid-template-columns: auto auto;
+  grid-template-columns: 822px auto;
   flex-direction: row;
   font-family: "Montserrat", sans-serif;
 }
 .container {
   padding-left: 61px;
   padding-top: 25px;
+  min-height: 100vh;
+  margin-bottom: 50px;
 }
 .noticias-pequenas img {
-  width: 230px;
-  height: 130px;
+      min-width: 131px;
+      max-width: 131px;
+    min-height: 92px;
+    max-height: 92px;
 }
 .noticias-pequenas {
   display: flex;
@@ -42,10 +51,10 @@
 }
 
 .noticias-pequenas p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .noticias-pequenas h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .titulo-conteudo {
   margin-left: 50px;
