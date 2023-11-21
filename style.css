@@ -129,6 +129,7 @@ body {
 
 .container-little-new img {
   width: auto;
+  max-height: 89px;
   object-fit: cover;
 }
 
@@ -136,7 +137,9 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 0.8rem;
-  width: 33%;
+  height: 92px;
+  object-fit: cover;
+  width: 131px;
 }
 
 .container-completo > ul {
