@@ -76,8 +76,8 @@ function verificarTemperatura() {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      temperaturaAtual.textContent = Math.floor(data.main.temp - 273.15);
-      temperaturaSensacao.textContent = Math.floor(data.main.feels_like - 273.15);
+      temperaturaAtual.textContent = Math.round(data.main.temp - 273.15);
+      temperaturaSensacao.textContent = Math.round(data.main.feels_like - 273.15);
       console.log(temperaturaAtual);
     });
   //temperatura vem como padrão em kelvin, converter em celsius!!!
